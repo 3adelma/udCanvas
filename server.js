@@ -3,5 +3,5 @@ var serveStatic = require('serve-static');
 
 var app = connect();
 
-app.use(serveStatic(__udCanvas));
+app.use(serveStatic(__dirname));
 app.listen(3000);
