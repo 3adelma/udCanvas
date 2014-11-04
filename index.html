@@ -8,13 +8,9 @@
         var c = document.querySelector("#c");
         var ctx = c.getContext("2d");
 
-        var image = new Image();
+        ctx.fillRect(100, 100, 100, 100);
+        ctx. strokeRect(50, 50, 50, 50);
 
-        image.onload = function() {
-            console.log("Loaded image");
-            //dosomething();
-        }
-        image.src = "hello.jpg";
     </script>
 </body>
 </html>
