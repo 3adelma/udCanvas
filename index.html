@@ -1,0 +1,20 @@
+<html>
+<head>
+    <title>My Canvas</title>
+</head>
+<body>
+    <canvas id="c" width="200" height="200"></canvas>
+    <script charset="utf-8">
+        var c = document.querySelector("#c");
+        var ctx = c.getContext("2d");
+
+        var image = new Image();
+
+        image.onload = function() {
+            console.log("Loaded image");
+            //dosomething();
+        }
+        image.src = "hello.jpg";
+    </script>
+</body>
+</html>
